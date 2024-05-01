@@ -511,12 +511,12 @@ a {
 
 .cta_box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: auto;
-  max-width: 70%;
+  max-width: 80%;
   background-color: var(--midnight);
-  padding: 3em 5em;
+  padding: 3em;
   color: var(--white);
   margin-top: -9rem;
   border-radius: 1.1em;
@@ -528,7 +528,7 @@ a {
 
 .cta_paragraph {
   text-align: center;
-  max-width: 40%;
+  max-width: 30%;
   line-height: 1.6;
   font-size: 1.1rem;
 }
@@ -543,7 +543,7 @@ a {
   align-items: center;
   color: var(--white);
   border: solid 1px var(--green);
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   border-radius: 999px;
   font-size: 1.1rem;
   font-weight: bold;
